@@ -2,12 +2,11 @@ streamlit==1.41.0
 altair==5.5.0
 transformers
 accelerate
-langchain==0.3.25
-langchain-community==0.3.24
-langchain-huggingface==0.1.2
-langchain-core==0.3.59
+langchain
+langchain-community
+langchain-huggingface
+langchain-core
 langchain-text-splitters
-langchain-classic
 faiss-cpu==1.13.2
 sentence-transformers
 rank_bm25==0.2.2
