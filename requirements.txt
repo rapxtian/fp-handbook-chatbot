@@ -8,7 +8,7 @@ langchain-huggingface==0.1.2
 langchain-core==0.3.59
 langchain-text-splitters==0.3.8
 langchain-classic==1.0.2
-faiss-cpu==1.9.0
+faiss-cpu==1.13.2
 sentence-transformers==3.4.1
 rank_bm25==0.2.2
 pymupdf4llm==0.0.17
