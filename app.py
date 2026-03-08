@@ -149,21 +149,3 @@ if prompt := st.chat_input("Ask a family planning question..."):
         st.markdown(answer)
 
     st.session_state.messages.append({"role": "assistant", "content": answer})
-```
-
----
-
-## Step 6 — Add the PDF to Your Repository
-
-Upload `phfphandbook-compressed.pdf` directly to the root of your GitHub repository alongside `app.py`. Streamlit Community Cloud will have access to it since it clones the full repository on deployment.
-
----
-
-## Step 7 — Push Everything to GitHub
-
-Your repository should look like this before deploying:
-```
-fp-handbook-chatbot/
-├── app.py
-├── requirements.txt
-└── phfphandbook-compressed.pdf
